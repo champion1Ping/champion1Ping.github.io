@@ -1,10 +1,10 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 张平的博客 | Hux Blog
+title: Champion Blog
+SEOTitle: 张平的博客 | Champion Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "关于前端与设计、黑客与画家 | 张平，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux张平 的个人博客，与你一起发现更大的世界。"
-keyword: "张平, Hux张平, Hux, 鬼栈, huxpro, @huxpro, 张平的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+email: championvsping@gmail.com
+description: "关于前端与设计、黑客与画家 | 张平，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。"
+keyword: "张平, Champion张平, Champion, 鬼栈, Championpro, @Championpro, 张平的博客, Champion Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
 url: "https://huangxuan.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
-#facebook_username:  huxpro
+weibo_username:     攻平
+zhihu_username:     champion
+github_username:    champion
+twitter_username:   champion
+#facebook_username:  Championpro
 #linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -53,7 +53,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: hux
+disqus_username: Champion
 
 # Netease settings
 netease_comment: false
@@ -72,7 +72,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
+sidebar-about-description: "protect you with my whole life<br>生命中因为有你而更加精彩"
 sidebar-avatar: /img/bruceLee.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
