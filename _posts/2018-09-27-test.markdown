@@ -1,13 +1,56 @@
 ---
-layout: default
-title: "个人随想"
-subtitle: "this is for u"
+layout: page
+title: "work skill"
+subtitle: "小技巧"
 date: 2018-09-27
 author: "zhangping"
 category: true
 tags:
-  - 工具
+  - 工作
 ---
 
 
-welcome to the world of java 
+### 1. dubbo invoke命令 
+版本2.5.6为分界线，如果入参是一个对象，需要添加类class
+
+```
+invoke io.terminus.solution.ipm.api.facade.shop.WarehouseRuleReadFacade.findWarehouseRuleById({"class":"io.terminus.solution.ipm.api.bean.request.warehouse.rule.WarehouseRuleFindByIdRequest","id":1})
+
+```
+
+### 2. 本地项目如上传至github
+(1)本地新建目录，然后执行git init
+
+* git add .
+* git commit -m "msg"
+* git remote add origin git@github.com:champion1Ping/dora.git
+* git push -u origin master
+
+如果权限没有，需要设置key。（针对ssh)
+
+### 3. 代码结构
+ * 领域对外接口实现
+ * - converter：接口入参、出参转换
+ * - facade：接口业务实现（三步走：接口入参、委托Service处理业务逻辑、接口出参转换）
+ * - aop：接口横切公共逻辑（接口入参校验、日志处理（记录、MQ等）、异常转换，优雅停机，并发访问分布式锁等）
+ *   领域业务逻辑实现
+ * - 依赖repository完成聚合根实体持久化
+ * - 依赖adaptor完成外部接口访问
+
+ * adaptor：外部接口访问层（ACL）
+ * - 依赖的外部接口（Dubbo、HTTP、MQ等）统一在此目录下定义、转换、适配、熔断、日志
+ * - 业务逻辑处理层（server）依赖天完成外部接口调用，使其避免受到外部接口变动影响
+ * -去掉了service层的接口，同时写服务都继承读服务
+
+### 4. 占位符的处理
+applicationContext
+.getEnvironment().resolvePlaceholders(job.cron())
+
+### 5. maven 命令行之行mvn clean莫名其妙的问题
+mvn -v 查看本地的安装，然后修改对应的setting.xml改为公司的地址即可
+
+### 6 java利器 
+https://mp.weixin.qq.com/s/KFuYd38esMFvR7M7Df8WoA
+
+
+

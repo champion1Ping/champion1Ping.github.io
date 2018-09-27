@@ -10,7 +10,7 @@
     <meta name="keywords"  content="张平, Champion张平, Champion, 鬼栈, Championpro, @Championpro, 张平的博客, Champion Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计">
     <meta name="theme-color" content="#000000">
     
-    <title>个人随想 - 张平的博客 | Champion Blog</title>
+    <title>work skill - 张平的博客 | Champion Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -146,7 +146,190 @@
 </script>
 
 
-    <p>welcome to the world of java</p>
+    <!-- Page Header -->
+<header class="intro-header" style="background-image: url('/img/home-bg.jpeg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>work skill</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+	<div class="row">
+        
+
+<!-- USE SIDEBAR -->
+    <!-- PostList Container -->
+    		<div class="
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                postlist-container
+            ">
+    			<h3 id="1-dubbo-invoke命令">1. dubbo invoke命令</h3>
+<p>版本2.5.6为分界线，如果入参是一个对象，需要添加类class</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>invoke io.terminus.solution.ipm.api.facade.shop.WarehouseRuleReadFacade.findWarehouseRuleById({"class":"io.terminus.solution.ipm.api.bean.request.warehouse.rule.WarehouseRuleFindByIdRequest","id":1})
+
+</code></pre></div></div>
+
+<h3 id="2-本地项目如上传至github">2. 本地项目如上传至github</h3>
+<p>(1)本地新建目录，然后执行git init</p>
+
+<ul>
+  <li>git add .</li>
+  <li>git commit -m “msg”</li>
+  <li>git remote add origin git@github.com:champion1Ping/dora.git</li>
+  <li>git push -u origin master</li>
+</ul>
+
+<p>如果权限没有，需要设置key。（针对ssh)</p>
+
+<h3 id="3-代码结构">3. 代码结构</h3>
+<ul>
+  <li>领域对外接口实现</li>
+  <li>
+    <ul>
+      <li>converter：接口入参、出参转换</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>facade：接口业务实现（三步走：接口入参、委托Service处理业务逻辑、接口出参转换）</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>aop：接口横切公共逻辑（接口入参校验、日志处理（记录、MQ等）、异常转换，优雅停机，并发访问分布式锁等）</li>
+    </ul>
+  </li>
+  <li>领域业务逻辑实现</li>
+  <li>
+    <ul>
+      <li>依赖repository完成聚合根实体持久化</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>依赖adaptor完成外部接口访问</li>
+    </ul>
+  </li>
+  <li>adaptor：外部接口访问层（ACL）</li>
+  <li>
+    <ul>
+      <li>依赖的外部接口（Dubbo、HTTP、MQ等）统一在此目录下定义、转换、适配、熔断、日志</li>
+    </ul>
+  </li>
+  <li>
+    <ul>
+      <li>业务逻辑处理层（server）依赖天完成外部接口调用，使其避免受到外部接口变动影响</li>
+    </ul>
+  </li>
+  <li>-去掉了service层的接口，同时写服务都继承读服务</li>
+</ul>
+
+<h3 id="4-占位符的处理">4. 占位符的处理</h3>
+<p>applicationContext
+.getEnvironment().resolvePlaceholders(job.cron())</p>
+
+<h3 id="5-maven-命令行之行mvn-clean莫名其妙的问题">5. maven 命令行之行mvn clean莫名其妙的问题</h3>
+<p>mvn -v 查看本地的安装，然后修改对应的setting.xml改为公司的地址即可</p>
+
+<h3 id="6-java利器">6 java利器</h3>
+<p>https://mp.weixin.qq.com/s/KFuYd38esMFvR7M7Df8WoA</p>
+
+
+    		</div>
+    <!-- Sidebar Container -->
+            <div class="
+                col-lg-3 col-lg-offset-0
+                col-md-3 col-md-offset-0
+                col-sm-12
+                col-xs-12
+                sidebar-container
+            ">
+                <!-- Featured Tags -->
+                
+                <section>
+                    <hr class="hidden-sm hidden-xs">
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                        
+                            
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Short About -->
+                <section class="visible-md visible-lg">
+                    <hr><h5><a href="/about/">ABOUT ME</a></h5>
+                    <div class="short-about">
+                        
+                            <img src="/img/bruceLee.jpeg" />
+                        
+                        
+                            <p>protect you with my whole life<br>生命中因为有你而更加精彩</p>
+                        
+                        <!-- SNS Link -->
+                        <ul class="list-inline">
+                            
+                            
+                            <li>
+                                <a target="_blank" href="https://www.zhihu.com/people/zhang-ping-25-88-57">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa  fa-stack-1x fa-inverse">知</i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            
+                            <li>
+                                <a target="_blank" href="http://weibo.com/5264815646">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-weibo fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                            
+                            <li>
+                                <a target="_blank" href="https://github.com/champion1Ping">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </section>
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+                    
+                        <li><a href="http://rann.cc/2016/05/07/migrate-to-hexo.html">梦回少年</a></li>
+                    
+                </ul>
+                
+    		</div>
+        
+	</div>
+</div>
 
 
     <!-- Footer -->

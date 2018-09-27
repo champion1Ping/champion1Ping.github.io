@@ -5,19 +5,90 @@
     <description>关于前端与设计、黑客与画家 | 张平，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。</description>
     <link>https://dora1031.com/</link>
     <atom:link href="https://dora1031.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Sep 2018 19:55:16 +0800</pubDate>
-    <lastBuildDate>Thu, 27 Sep 2018 19:55:16 +0800</lastBuildDate>
+    <pubDate>Thu, 27 Sep 2018 20:09:32 +0800</pubDate>
+    <lastBuildDate>Thu, 27 Sep 2018 20:09:32 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>个人随想</title>
-        <description>&lt;p&gt;welcome to the world of java&lt;/p&gt;
+        <title>work skill</title>
+        <description>&lt;h3 id=&quot;1-dubbo-invoke命令&quot;&gt;1. dubbo invoke命令&lt;/h3&gt;
+&lt;p&gt;版本2.5.6为分界线，如果入参是一个对象，需要添加类class&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;invoke io.terminus.solution.ipm.api.facade.shop.WarehouseRuleReadFacade.findWarehouseRuleById({&quot;class&quot;:&quot;io.terminus.solution.ipm.api.bean.request.warehouse.rule.WarehouseRuleFindByIdRequest&quot;,&quot;id&quot;:1})
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-本地项目如上传至github&quot;&gt;2. 本地项目如上传至github&lt;/h3&gt;
+&lt;p&gt;(1)本地新建目录，然后执行git init&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;git add .&lt;/li&gt;
+  &lt;li&gt;git commit -m “msg”&lt;/li&gt;
+  &lt;li&gt;git remote add origin git@github.com:champion1Ping/dora.git&lt;/li&gt;
+  &lt;li&gt;git push -u origin master&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;如果权限没有，需要设置key。（针对ssh)&lt;/p&gt;
+
+&lt;h3 id=&quot;3-代码结构&quot;&gt;3. 代码结构&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;领域对外接口实现&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;converter：接口入参、出参转换&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;facade：接口业务实现（三步走：接口入参、委托Service处理业务逻辑、接口出参转换）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;aop：接口横切公共逻辑（接口入参校验、日志处理（记录、MQ等）、异常转换，优雅停机，并发访问分布式锁等）&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;领域业务逻辑实现&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;依赖repository完成聚合根实体持久化&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;依赖adaptor完成外部接口访问&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;adaptor：外部接口访问层（ACL）&lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;依赖的外部接口（Dubbo、HTTP、MQ等）统一在此目录下定义、转换、适配、熔断、日志&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;业务逻辑处理层（server）依赖天完成外部接口调用，使其避免受到外部接口变动影响&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;-去掉了service层的接口，同时写服务都继承读服务&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;4-占位符的处理&quot;&gt;4. 占位符的处理&lt;/h3&gt;
+&lt;p&gt;applicationContext
+.getEnvironment().resolvePlaceholders(job.cron())&lt;/p&gt;
+
+&lt;h3 id=&quot;5-maven-命令行之行mvn-clean莫名其妙的问题&quot;&gt;5. maven 命令行之行mvn clean莫名其妙的问题&lt;/h3&gt;
+&lt;p&gt;mvn -v 查看本地的安装，然后修改对应的setting.xml改为公司的地址即可&lt;/p&gt;
+
+&lt;h3 id=&quot;6-java利器&quot;&gt;6 java利器&lt;/h3&gt;
+&lt;p&gt;https://mp.weixin.qq.com/s/KFuYd38esMFvR7M7Df8WoA&lt;/p&gt;
+
 </description>
         <pubDate>Thu, 27 Sep 2018 00:00:00 +0800</pubDate>
         <link>https://dora1031.com/true/2018/09/27/test/</link>
         <guid isPermaLink="true">https://dora1031.com/true/2018/09/27/test/</guid>
         
-        <category>工具</category>
+        <category>工作</category>
         
         
         <category>true</category>
