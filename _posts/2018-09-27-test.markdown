@@ -49,8 +49,11 @@ applicationContext
 ### 5. maven 命令行之行mvn clean莫名其妙的问题
 mvn -v 查看本地的安装，然后修改对应的setting.xml改为公司的地址即可
 
-### 6 java利器 
+### 6. java利器 
 https://mp.weixin.qq.com/s/KFuYd38esMFvR7M7Df8WoA
 
+### 7. blog提交之前的操作
+* jekyll server 本地可以查看效果
+* jekyll build 构建_site
 
 
