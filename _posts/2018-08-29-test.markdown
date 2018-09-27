@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "技术博客搭建"
-subtitle: "感谢gitpage，jekyll和hux模板"
-date: 2018-08-29
-author: "Anyinlover"
+title: "个人随想"
+subtitle: "this is for u"
+date: 2018-09-27
+author: "zhangping"
 category: true
 tags:
   - 工具
