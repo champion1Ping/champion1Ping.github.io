@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "个人随想"
 subtitle: "this is for u"
 date: 2018-09-27
