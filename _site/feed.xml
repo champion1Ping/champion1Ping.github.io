@@ -5,8 +5,8 @@
     <description>关于前端与设计、黑客与画家 | 张平，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。</description>
     <link>https://dora1031.com/</link>
     <atom:link href="https://dora1031.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 28 Sep 2018 11:21:23 +0800</pubDate>
-    <lastBuildDate>Fri, 28 Sep 2018 11:21:23 +0800</lastBuildDate>
+    <pubDate>Fri, 28 Sep 2018 11:27:48 +0800</pubDate>
+    <lastBuildDate>Fri, 28 Sep 2018 11:27:48 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -53,14 +53,7 @@
     
       <item>
         <title>work skill</title>
-        <description>&lt;h3 id=&quot;1-dubbo-invoke命令&quot;&gt;1. dubbo invoke命令&lt;/h3&gt;
-&lt;p&gt;版本2.5.6为分界线，如果入参是一个对象，需要添加类class&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;invoke io.terminus.solution.ipm.api.facade.shop.WarehouseRuleReadFacade.findWarehouseRuleById({&quot;class&quot;:&quot;io.terminus.solution.ipm.api.bean.request.warehouse.rule.WarehouseRuleFindByIdRequest&quot;,&quot;id&quot;:1})
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;2-本地项目如上传至github&quot;&gt;2. 本地项目如上传至github&lt;/h3&gt;
+        <description>&lt;h3 id=&quot;1-本地项目如上传至github&quot;&gt;1. 本地项目如上传至github&lt;/h3&gt;
 &lt;p&gt;(1)本地新建目录，然后执行git init&lt;/p&gt;
 
 &lt;ul&gt;
@@ -71,6 +64,13 @@
 &lt;/ul&gt;
 
 &lt;p&gt;如果权限没有，需要设置key。（针对ssh)&lt;/p&gt;
+
+&lt;h3 id=&quot;2-dubbo-invoke命令&quot;&gt;2. dubbo invoke命令&lt;/h3&gt;
+&lt;p&gt;版本2.5.6为分界线，如果入参是一个对象，需要添加类class&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;invoke io.terminus.solution.ipm.api.facade.shop.WarehouseRuleReadFacade.findWarehouseRuleById({“class”:”io.terminus.solution.ipm.api.bean.request.warehouse.rule.WarehouseRuleFindByIdRequest”,”id”:1})&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&quot;3-代码结构&quot;&gt;3. 代码结构&lt;/h3&gt;
 &lt;ul&gt;
