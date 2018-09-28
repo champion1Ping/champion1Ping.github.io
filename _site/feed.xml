@@ -5,9 +5,51 @@
     <description>关于前端与设计、黑客与画家 | 张平，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。</description>
     <link>https://dora1031.com/</link>
     <atom:link href="https://dora1031.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 27 Sep 2018 23:38:06 +0800</pubDate>
-    <lastBuildDate>Thu, 27 Sep 2018 23:38:06 +0800</lastBuildDate>
+    <pubDate>Fri, 28 Sep 2018 11:21:23 +0800</pubDate>
+    <lastBuildDate>Fri, 28 Sep 2018 11:21:23 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>源码阅读习惯</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;       作为一名软件开发人员，我们平时除了编码的工作，还有一个也是免不了的，那就是源码的阅读，这个也分为2个方面，一个是刚进入到某个项目中对已有代码的阅读，还有一个是针对一些开源的优秀框架的源码阅读，比如netty、spring、rocketmq，此处列举的主要是java方面的，其它编程语言的优秀框架也不少，可以在github上面搜索星级比较多的;业界流传较广的;最简单最直接的方式可以直接通过查看用人单位上面针对技术岗位的要求。这个是目的导向的，还有一个就是根据自己的兴趣爱好选择性的去阅读。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;       个人的成长跟你的工作经历不一定是成正比的关系的，不是工作时间越长，个人能力就越突出,它跟你从事的工作性质、工作内容、项目复杂度、技术新旧程度都有一定的关系，往往我们从失败、教训、错误中学到的东西才更加宝贵。外科医生经历复杂的手术才能不断成长，对于开发人员我们也是手拿手术刀,不过我们操刀的对象不是人，而是项目。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;       感觉有点扯远了，回到正题，针对源码的阅读，说实在话我也挺困惑的，怎样阅读源码才是最好的方式呢？曾几何时，我也想问过一些技术大牛，哪种方式最适合我们阅读源码啊，不同的人给的意见也不统一，也曾到网上google了一番，也曾兴致勃勃把不少重量级别的开源项目clone到本地，但是很难坚持看完。为此我总结了如下几点：&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;首先要培养自己阅读源码的兴趣&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;明确它的重要性，探索未知世界，明白他人写代码是的思路。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;如何阅读&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;       首先明白它是用来干什么的？浏览一下它的功能，熟悉一下包的结构。没有看之前，想象一下如果是你的话，你会怎么来设计它。总结一下它里面的依赖，用到了哪些东西，比如zk 、redis引用进来的目的是什么？首先从demo看起，可以试着调试代码，追踪一下执行的过程，对于自己有困惑的可以试着coding来验证你的猜想。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Fri, 28 Sep 2018 00:00:00 +0800</pubDate>
+        <link>https://dora1031.com/true/2018/09/28/code/</link>
+        <guid isPermaLink="true">https://dora1031.com/true/2018/09/28/code/</guid>
+        
+        <category>源码</category>
+        
+        
+        <category>true</category>
+        
+      </item>
     
       <item>
         <title>work skill</title>

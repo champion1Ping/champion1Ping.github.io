@@ -10,7 +10,7 @@
     <meta name="keywords"  content="张平, Champion张平, Champion, 鬼栈, Championpro, @Championpro, 张平的博客, Champion Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计">
     <meta name="theme-color" content="#000000">
     
-    <title>About - 张平的博客 | Champion Blog</title>
+    <title>源码阅读习惯 - 张平的博客 | Champion Blog</title>
 
     <!-- Web App Manifest -->
     <link rel="manifest" href="/pwa/manifest.json">
@@ -19,7 +19,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     
     <!-- Canonical URL -->
-    <link rel="canonical" href="https://dora1031.com/about/">
+    <link rel="canonical" href="https://dora1031.com/true/2018/09/28/code/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -147,14 +147,14 @@
 
 
     <!-- Page Header -->
-<header class="intro-header" style="background-image: url('/img/about-bg.jpg')">
+<header class="intro-header" style="background-image: url('/img/home-bg.jpeg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
-                    <h1>About</h1>
+                    <h1>源码阅读习惯</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading">你是我的梦想</span>
+                    <span class="subheading"></span>
                 </div>
             </div>
         </div>
@@ -175,80 +175,33 @@
                 col-xs-12
                 postlist-container
             ">
-    			<!-- Language Selector -->
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
-    <option value="0" selected> 中文 Chinese </option>
-    <option value="1"> 英文 English </option>
-</select>
-
-<!-- Chinese Version -->
-<div class="zh post-container">
-    
-    <blockquote>
-  <p>写写代码，享受人生，携一人终老，<br />
-离开世界之前，一切都是过程。</p>
+    			<blockquote>
+  <p>       作为一名软件开发人员，我们平时除了编码的工作，还有一个也是免不了的，那就是源码的阅读，这个也分为2个方面，一个是刚进入到某个项目中对已有代码的阅读，还有一个是针对一些开源的优秀框架的源码阅读，比如netty、spring、rocketmq，此处列举的主要是java方面的，其它编程语言的优秀框架也不少，可以在github上面搜索星级比较多的;业界流传较广的;最简单最直接的方式可以直接通过查看用人单位上面针对技术岗位的要求。这个是目的导向的，还有一个就是根据自己的兴趣爱好选择性的去阅读。</p>
 </blockquote>
 
-<p>Hey，我是张平，91年人士.</p>
-
-<p>职业是软件工程师，16年毕业就职于杭州电魂科技，从事手游服务器开发工作，项目是《梦三国手游》。后面从手游转入公共技术部门，从事中间件的开发。2018年离开电魂，入职杭州端点科技，从事java开发至今。</p>
-
-<p>一些作品和开源软件项目，待完善。</p>
-
-<h5 id="talks">Talks</h5>
-
-<ul>
-  <li>你为谁而活</li>
-</ul>
-
-
-</div>
-
-<!-- English Version -->
-<div class="en post-container">
-    
-    
 <blockquote>
-  <p>Yet another man.</p>
+  <p>       个人的成长跟你的工作经历不一定是成正比的关系的，不是工作时间越长，个人能力就越突出,它跟你从事的工作性质、工作内容、项目复杂度、技术新旧程度都有一定的关系，往往我们从失败、教训、错误中学到的东西才更加宝贵。外科医生经历复杂的手术才能不断成长，对于开发人员我们也是手拿手术刀,不过我们操刀的对象不是人，而是项目。</p>
 </blockquote>
 
-<p>Hi, I am zhangping, born in 1991.</p>
-
-<p>my job is software enginner,I worked in hangzhou electronic soul as a developer,the mobile project is «dream three»,later, I joined the public technology department.I resigned in march 2018 and joined the company which called terminus . I  worked as a java programmer until now .</p>
-
-<h5 id="talks">Talks</h5>
+<blockquote>
+  <p>       感觉有点扯远了，回到正题，针对源码的阅读，说实在话我也挺困惑的，怎样阅读源码才是最好的方式呢？曾几何时，我也想问过一些技术大牛，哪种方式最适合我们阅读源码啊，不同的人给的意见也不统一，也曾到网上google了一番，也曾兴致勃勃把不少重量级别的开源项目clone到本地，但是很难坚持看完。为此我总结了如下几点：</p>
+</blockquote>
 
 <ul>
-  <li>[Upgrading to Progressive Web Apps][9] · <a href="http://2017.jsconf.cn/">JSConf China Shanghai 2017</a></li>
+  <li>首先要培养自己阅读源码的兴趣</li>
 </ul>
 
+<blockquote>
+  <p>明确它的重要性，探索未知世界，明白他人写代码是的思路。</p>
+</blockquote>
 
-</div>
+<ul>
+  <li>如何阅读</li>
+</ul>
 
-
-
-<!-- disqus 评论框 start -->
-<div class="comment">
-    <div id="disqus_thread" class="disqus-thread">
-
-    </div>
-</div>
-<!-- disqus 评论框 end -->
-
-<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
-<script type="text/javascript">
-    /* * * CONFIGURATION VARIABLES * * */
-    var disqus_shortname = "Champion";
-    var disqus_identifier = "Champion//about/";
-    var disqus_url = "https://dora1031.com/about/";
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<!-- disqus 公共JS代码 end -->
+<blockquote>
+  <p>       首先明白它是用来干什么的？浏览一下它的功能，熟悉一下包的结构。没有看之前，想象一下如果是你的话，你会怎么来设计它。总结一下它里面的依赖，用到了哪些东西，比如zk 、redis引用进来的目的是什么？首先从demo看起，可以试着调试代码，追踪一下执行的过程，对于自己有困惑的可以试着coding来验证你的猜想。</p>
+</blockquote>
 
 
     		</div>
@@ -486,55 +439,6 @@
 
 
 <!-- Multi-Lingual -->
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    // Changes at v1.7.2: change the language flag from hash-basing to in-memory basing
-    // due to its confliction with catalog anchors.
-    // window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(_hash){
-        var _hash = _hash || window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $en.classList.add("active");
-            $zh.style.display = "none";
-            $zh.classList.remove("active");
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $zh.classList.add("active");
-            $en.style.display = "none";
-            $en.classList.remove("active");
-        }
-        // interop with catalog 
-        if ("") generateCatalog(".catalog-body");
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            _hash = "#zh"
-        }else{
-            _hash = "#en"
-        }
-        _render(_hash)
-    }
-
-    // init
-    _render();
-</script>
 
 
 
