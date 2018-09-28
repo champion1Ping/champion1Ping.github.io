@@ -58,4 +58,8 @@ https://mp.weixin.qq.com/s/KFuYd38esMFvR7M7Df8WoA
 * jekyll server 本地可以查看效果
 * jekyll build 构建_site
 
+### 8.mybatis prefixOverrides suffixOverrides
+- prefixOverrides:指定去除多余的前缀内容
+- suffixOverrides:注定去处多余的后缀内容
+
 
