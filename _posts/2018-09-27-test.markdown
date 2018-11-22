@@ -62,5 +62,9 @@ https://mp.weixin.qq.com/s/KFuYd38esMFvR7M7Df8WoA
 - prefixOverrides:指定去除多余的前缀内容
 - suffixOverrides:注定去处多余的后缀内容
 
+### 9.需改远程仓库的地址
+git remote set-url origin http://git.terminus.io/retail-mall/inventory/parana-inventory.git
+
+
 
 
