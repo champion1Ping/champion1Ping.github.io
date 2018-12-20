@@ -5,23 +5,93 @@
     <description>关于前端与设计、黑客与画家 | 张平，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。</description>
     <link>https://dora1031.com/</link>
     <atom:link href="https://dora1031.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 11 Dec 2018 20:18:20 +0800</pubDate>
-    <lastBuildDate>Tue, 11 Dec 2018 20:18:20 +0800</lastBuildDate>
+    <pubDate>Thu, 20 Dec 2018 22:23:53 +0800</pubDate>
+    <lastBuildDate>Thu, 20 Dec 2018 22:23:53 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>消息队列</title>
-        <description>&lt;h3 id=&quot;各种mq的对比&quot;&gt;各种mq的对比&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;./mq.png&quot; width=&quot;400&quot; height=&quot;200&quot; alt=&quot;mq对比&quot; /&gt;&lt;/p&gt;
+        <title>mac shell快捷键</title>
+        <description>&lt;h2 id=&quot;shell-窗口移到行首-controla&quot;&gt;shell 窗口移到行首 control+a&lt;/h2&gt;
+
+&lt;h2 id=&quot;shell-窗口移到行尾-controle&quot;&gt;shell 窗口移到行尾 control+e&lt;/h2&gt;
+
+&lt;h2 id=&quot;vim中光标的移动&quot;&gt;vim中光标的移动&lt;/h2&gt;
+
+&lt;p&gt;1、移动到行尾”$”，移动到行首”0”(数字)，移动到行首第一个字符处”^”&lt;/p&gt;
+
+&lt;p&gt;2、移动到段首”{“，移动到段尾”}”&lt;/p&gt;
+
+&lt;p&gt;3、移动到下一个词”w”，移动到上一个词”b”&lt;/p&gt;
+
+&lt;p&gt;4、移动到文档开始”gg”，移动到文档结束”G”&lt;/p&gt;
+
+&lt;p&gt;5、跳到第n行”ngg” 或 “nG” 或 “:n”&lt;/p&gt;
+
+&lt;p&gt;6、移动光标到屏幕顶端”H”，移动到屏幕中间”M”，移动到底部”L”&lt;/p&gt;
+
+&lt;p&gt;7、移动到上次编辑文件的位置 “`”&lt;/p&gt;
+
+&lt;p&gt;##vim中的编辑操作&lt;/p&gt;
+
+&lt;p&gt;1、光标后插入”a”, 行尾插入”A”&lt;/p&gt;
+
+&lt;p&gt;2、后插一行插入”o”，前插一行插入”O”&lt;/p&gt;
+
+&lt;p&gt;3、删除字符插入”s”， 删除正行插入”S”&lt;/p&gt;
+
+&lt;p&gt;4、光标前插入”i”，行首插入”I”&lt;/p&gt;
+
+&lt;p&gt;5、删除一行”dd”，删除后进入插入模式”cc”或者”S”&lt;/p&gt;
+
+&lt;p&gt;6、删除一个单词”dw”，删除一个单词进入插入模式”cw”&lt;/p&gt;
+
+&lt;p&gt;7、删除一个字符”x”或者”dl”，删除一个字符进入插入模式”s”或者”cl”&lt;/p&gt;
+
+&lt;p&gt;8、粘贴”p”，交换两个字符”xp”&lt;/p&gt;
+
+&lt;p&gt;9、交换两行”ddp”&lt;/p&gt;
+
+&lt;p&gt;10、复制”y”，复制一行”yy”&lt;/p&gt;
+
+&lt;p&gt;11、拷贝当前行 “yy”或者”Y”&lt;/p&gt;
+
+&lt;p&gt;12、撤销”u”，重做”ctrl + r”&lt;/p&gt;
+
+&lt;p&gt;13、删除到行尾可以使用”D”或”C”&lt;/p&gt;
+
+&lt;p&gt;14、删除当前字符 “x”&lt;/p&gt;
+
+&lt;p&gt;15、” »“缩进所有选择的代码&lt;/p&gt;
+
+&lt;p&gt;16、 “«” 反缩进所有选择的代码&lt;/p&gt;
+
+&lt;h2 id=&quot;vim的简单配置&quot;&gt;vim的简单配置&lt;/h2&gt;
+
+&lt;p&gt;syntax enable           //语法高亮&lt;/p&gt;
+
+&lt;p&gt;set number              //显示行号&lt;/p&gt;
+
+&lt;p&gt;set cursorline          //突出显示当前行&lt;/p&gt;
+
+&lt;p&gt;set ruler               //打开状态栏标尺&lt;/p&gt;
+
+&lt;p&gt;set shiftwidth=4        //设定 « 和 » 命令移动时的宽度为 4&lt;/p&gt;
+
+&lt;p&gt;set softtabstop=4       //使得按退格键时可以一次删掉 4 个空格&lt;/p&gt;
+
+&lt;p&gt;set tabstop=4           //设定 tab 长度为 4&lt;/p&gt;
+
 </description>
         <pubDate>Tue, 11 Dec 2018 00:00:00 +0800</pubDate>
-        <link>https://dora1031.com/true/2018/12/11/mq/</link>
-        <guid isPermaLink="true">https://dora1031.com/true/2018/12/11/mq/</guid>
+        <link>https://dora1031.com/shell/2018/12/11/mq/</link>
+        <guid isPermaLink="true">https://dora1031.com/shell/2018/12/11/mq/</guid>
         
-        <category>message queue</category>
+        <category>-mac</category>
+        
+        <category>shell</category>
         
         
-        <category>true</category>
+        <category>shell</category>
         
       </item>
     
