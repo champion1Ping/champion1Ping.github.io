@@ -5,8 +5,8 @@
     <description>关于前端与设计、黑客与画家 | 张平，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。</description>
     <link>https://dora1031.com/</link>
     <atom:link href="https://dora1031.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 20 Dec 2018 22:23:53 +0800</pubDate>
-    <lastBuildDate>Thu, 20 Dec 2018 22:23:53 +0800</lastBuildDate>
+    <pubDate>Thu, 20 Dec 2018 22:56:29 +0800</pubDate>
+    <lastBuildDate>Thu, 20 Dec 2018 22:56:29 +0800</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
@@ -31,7 +31,7 @@
 
 &lt;p&gt;7、移动到上次编辑文件的位置 “`”&lt;/p&gt;
 
-&lt;p&gt;##vim中的编辑操作&lt;/p&gt;
+&lt;h2 id=&quot;vim中的编辑操作&quot;&gt;vim中的编辑操作&lt;/h2&gt;
 
 &lt;p&gt;1、光标后插入”a”, 行尾插入”A”&lt;/p&gt;
 
