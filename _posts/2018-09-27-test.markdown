@@ -1,17 +1,13 @@
 ---
 layout: page
 title: "work skill"
-subtitle: "小技巧"
+subtitle: "日常小技巧"
 date: 2018-09-27
 author: "zhangping"
 category: true
 tags:
   - 工作
 ---
-
-
-
-
 
 
 ### 1. 本地项目如上传至github
