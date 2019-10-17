@@ -3,10 +3,10 @@
   <channel>
     <title>Champion Blog</title>
     <description>关于前端与设计、黑客与画家 | 张平，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Oct 2019 16:19:45 +0800</pubDate>
-    <lastBuildDate>Mon, 14 Oct 2019 16:19:45 +0800</lastBuildDate>
+    <link>https://dora1031.com/</link>
+    <atom:link href="https://dora1031.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 17 Oct 2019 17:33:54 +0800</pubDate>
+    <lastBuildDate>Thu, 17 Oct 2019 17:33:54 +0800</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
@@ -83,8 +83,8 @@
 
 </description>
         <pubDate>Tue, 11 Dec 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/shell/2018/12/11/mq/</link>
-        <guid isPermaLink="true">http://localhost:4000/shell/2018/12/11/mq/</guid>
+        <link>https://dora1031.com/shell/2018/12/11/mq/</link>
+        <guid isPermaLink="true">https://dora1031.com/shell/2018/12/11/mq/</guid>
         
         <category>-mac</category>
         
@@ -104,8 +104,8 @@
 
 </description>
         <pubDate>Fri, 28 Sep 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/true/2018/09/28/interview/</link>
-        <guid isPermaLink="true">http://localhost:4000/true/2018/09/28/interview/</guid>
+        <link>https://dora1031.com/true/2018/09/28/interview/</link>
+        <guid isPermaLink="true">https://dora1031.com/true/2018/09/28/interview/</guid>
         
         <category>interview</category>
         
@@ -146,8 +146,8 @@
 
 </description>
         <pubDate>Fri, 28 Sep 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/true/2018/09/28/code/</link>
-        <guid isPermaLink="true">http://localhost:4000/true/2018/09/28/code/</guid>
+        <link>https://dora1031.com/true/2018/09/28/code/</link>
+        <guid isPermaLink="true">https://dora1031.com/true/2018/09/28/code/</guid>
         
         <category>源码</category>
         
@@ -251,8 +251,8 @@
 
 </description>
         <pubDate>Thu, 27 Sep 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/true/2018/09/27/test/</link>
-        <guid isPermaLink="true">http://localhost:4000/true/2018/09/27/test/</guid>
+        <link>https://dora1031.com/true/2018/09/27/test/</link>
+        <guid isPermaLink="true">https://dora1031.com/true/2018/09/27/test/</guid>
         
         <category>工作</category>
         
