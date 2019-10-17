@@ -65,4 +65,11 @@ git remote set-url origin http://git.terminus.io/retail-mall/inventory/parana-in
 netstat -aon | findstr "portNum"  
 例子：netstat -aon | findstr "4000"
 
+### 11.查看java进程启动配置信息
+jps -v
+### 12.虚拟机统计信息监视工具
+jstat
+### 13.java进程配置信息查看
+jinfo pid
+
 
