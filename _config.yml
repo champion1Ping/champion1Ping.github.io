@@ -1,6 +1,6 @@
 # Site settings
 title: Champion Blog
-SEOTitle: 张平的博客 | Champion Blog
+SEOTitle: champion的博客 | Champion Blog
 header-img: img/home-bg.jpeg
 email: championvsping@gmail.com
 description: "关于前端与设计、黑客与画家 | 张平，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Champion张平 的个人博客，与你一起发现更大的世界。"
@@ -72,7 +72,7 @@ ga_domain: dora1031.com
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "protect you with my whole life<br>生命中因为有你而更加精彩"
+sidebar-about-description: "stay foolish ,stay hungry"
 sidebar-avatar: /img/bruceLee.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -92,8 +92,8 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "梦回少年",
-        href: "http://rann.cc/2016/05/07/migrate-to-hexo.html"
+        title: "google",
+        href: "www.google.com"
     },
     
 ]

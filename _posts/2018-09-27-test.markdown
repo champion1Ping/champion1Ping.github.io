@@ -61,6 +61,8 @@ https://mp.weixin.qq.com/s/KFuYd38esMFvR7M7Df8WoA
 ### 9.需改远程仓库的地址
 git remote set-url origin http://git.terminus.io/retail-mall/inventory/parana-inventory.git
 
-
+### 10.window查看端口占用指令
+netstat -aon | findstr "portNum"  
+例子：netstat -aon | findstr "4000"
 
 
